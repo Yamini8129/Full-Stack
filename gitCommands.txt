@@ -1,0 +1,112 @@
+    1  git --version
+    2  pwd
+    3  ls
+    4  ls-a
+    5  ls -a
+    6  clear
+    7  cd Desktop/
+    8  cd ..
+    9  cd
+   10  cd Desktop/
+   11  cd
+   12  cd Desktop/
+   13  clear
+   14  mkdir fsd
+   15  ls
+   16  cd fsd/
+   17  touch full_stack.txt
+   18   cat full_stack.txt
+   19  echo "full stack developer" > full_stack.txt
+   20   cat full_stack.txt
+   21  echo "html and css" > full_stack.txt
+   22   cat full_stack.txt
+   23  echo "java script" >> full_stack.txt
+   24   cat full_stack.txt
+   25  nano full_stack.txt
+   26   cat full_stack.txt
+   27   cat data.txt
+   28  nano data.txt
+   29   cat data.txt
+   30  ls
+   31  clear
+   32  rm --help
+   33  rm data.txt
+   34  rm -d full_stack.txt
+   35  clear
+   36  mkdir git
+   37  ls
+   38  mkdir full_stack.txt
+   39  ls
+   40  clear
+   41  git --version
+   42  pwd
+   43  ls
+   44  clear
+   45  cd Desktop/
+   46  cd ..
+   47  cd
+   48  cd Desktop/
+   49  clear
+   50  mkdir FullStackDev
+   51  ls
+   52  cd FullStackDev/
+   53  clear
+   54  touch Full_Stack.txt
+   55  ls
+   56  cat Full_Stack.txt
+   57  echo "Full Stack Developer" > Full_Stack.txt
+   58  cat Full_Stack.txt
+   59  echo "html and css" > Full_Stack.txt
+   60  cat Full_Stack.txt
+   61  echo "JavaScript" >> Full_Stack.txt
+   62  cat Full_Stack.txt
+   63  clear
+   64  gedit Full_Stack.txt
+   65  nano Full_Stack.txt
+   66  nano Full_Stack.txt
+   67  cat Full_Stack.txt
+   68  nano Data.txt
+   69  ls
+   70  nano Data.txt
+   71  clear
+   72  rm --help
+   73  rm Data.txt
+   74  ls
+   75  clear
+   76  mkdir Git
+   77  ls
+   78  git init
+   79  git status
+   80  git add Full_Stack.txt
+   81  git status
+   82  clear
+   83  git commit -m "First Commit"
+   84  git config --gobal user.email 'yamini.anuradha@gmail.com'
+   85  git config --global user.email 'yamini.anuradha@gmail.com'
+   86  git config --global user.name 'Yamini Anuradha'
+   87  git config user.name
+   88  git config user.email
+   89  git commit -m "First Commit"
+   90  clear
+   91  nano Full_Stack.txt
+   92  git status
+   93  git add Full_Stack.txt
+   94  git commit -m "Second Commit"
+   95  git log
+   96  clear
+   97  mkdir Full-Stack
+   98  ls
+   99  git remote -help
+  100  git remote add Full-Stack https://github.com/Yamini8129/Full-Stack
+  101  git remote show
+  102  git remote -v
+  103  git pull Full-Stack master
+  104  git push -u Full-Stack
+  105  git push --set-upstream Full-Stack master
+  106  git push -f --set-upstream Full-Stack master
+  107  git remote show
+  108  git remote -v
+  109  git pull Full-Stack master
+  110  git push -u Full-Stack
+  111  history
+  112  history 448 > gitCommands.txt
