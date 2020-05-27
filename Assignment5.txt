@@ -1,5 +1,0 @@
-Q)Assignment 5:
-
-Ans)Web services are responsible for online machine-to-machine communication. Computers use them to communicate with each other over the internet. In fact, it’s only the front-end interfaces of websites and applications that reside on end user’s devices.
-When it comes to the way we create web services, there are currently two main competing approaches: SOAP and REST. Due to the software industry being the way it is — i.e., loving to fight, that has led to intense debates. “SOAP vs REST” is, in some ways, the new “tabs vs spaces”. Only this time, SOAP and REST aren’t even in the same category of things, as you’ll see in a while. To make things even more confusing, people often add yet more concepts to the mix, such as JSON.
-The related data is stored on a remote server and transmitted to the client machine through APIs that provide web services for third-party users. APIs can use different architectures to transfer data from the server to the client.
