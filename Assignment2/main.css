@@ -1,0 +1,12 @@
+h1{
+    color:black;
+    text-align:center;
+    text-transform:uppercase;
+    text-style:normal;
+}
+h2{
+    color:orange;   
+    text-align:center;
+    text-transform:lowercase;
+    text-style:italic;
+}
