@@ -1,0 +1,17 @@
+body{
+    border:2px solid black;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    display:inline;
+    color:grey;
+    margin:10px;
+}
+a:visited{
+    color:green;
+}
+a:hover{
+    color:red;
+}
