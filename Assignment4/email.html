@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Email Id verifying</title>
+        <script type="text/javascript">
+            function mycheck()
+            {
+            var val=document.getElementById("txt1").value;
+            if (/^[A-za-z][a-zA-Z0-9._-]{5,15}[@][A-Za-z]{2,10}[.][A-Za-z]{2,3}$/.test(val))
+            {
+                window.alert("Vaild");
+            }
+            else
+            {
+                window.alert("InVaild");
+            }
+            }
+           </script>
+    </head>
+    <body>
+            Email id<input type="email" id="txt1" placeholder="Enter mail id"><br>
+            <button type="button"  onClick="mycheck()">Submit</button>
+    </body>
+</html>

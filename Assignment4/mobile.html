@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <TITLE>Verifying mobile number</TITLE>
+        <script type="text/javascript">
+            function mycheck()
+            {
+            var v1=document.getElementById("txt1").value;
+            if (/^[6-9][0-9]{9}$/.test(v1))
+            {
+                window.alert("Vaild");
+            }
+            else if(/^[0][6-9][0-9]{9}$/.test(v1))
+            {
+                    window.alert("Valid");
+            }
+            else if(/^[+][9][1][6-9][0-9]{9}$/.test(v1))
+            {
+                window.alert("Valid");
+            }
+            else
+            {
+                window.alert("InVaild");
+            }
+            }
+        </script>
+    </HEAD>
+    <BODY>
+        <form>
+        Mobile Number<input type="number" id="txt1" placeholder="Enter mobile number"><br>
+        <button type="button"  onClick="mycheck()">Submit</button>
+        </form>
+    </BODY>
+</HTML>
+
+
