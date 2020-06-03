@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <TITLE>Checking the password</TITLE>
+        <script>
+              function mycheck()
+          {
+            var v1=document.getElementById("txt1").value;
+            if(/^[a-zA-Z0-9]{6,12}$/.test(v1))
+            {
+                window.alert("Sucessful");
+            }
+            else{
+                window.alert("Unsuccessful")
+            }
+         }
+        </script>
+    </HEAD>
+    <BODY>
+        Password<input type="password" id="txt1" placeholder="Enter password"><br><br>
+        <button type="button" onClick="mycheck()">Submit</button>
+    </BODY>
+</HTML>
