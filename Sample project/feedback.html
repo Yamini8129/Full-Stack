@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <TITLE>Feedback form</TITLE>
+        <style>
+            h5{
+                color:red;
+            }
+            body{
+                background-image:url("im.jpg");
+                font-family:Helvetica;
+            }
+            h1{
+                text-shadow:2px 1px black;
+            }
+            center{
+                font-weight:lighter;
+            }
+        </style>
+    </HEAD>
+    <BODY>
+        <h1>Patient Feedback Form</h1><hr><br>
+        <center>
+        Professional's name <input type="text" id="text"><br><br>
+        Patient's first name <input type="text" id="text">
+        Last initial <input type="text" id="text"><br><br>
+        <h5>Written reviews require your first name and last initial to appear next to this review </h5><br>
+        Would you recommend this professional? <select>
+            <option>Highly Recommended</option>
+            <option>Probably </option>
+            <option> NotProbably</option>
+            <option>Never!</option>
+        </select><br><br>
+        How would you rate this professional’s bedside manner? <select>
+            <option>Excellent</option>
+            <option>Good</option>
+            <option>Satisfactory</option>
+            <option>Unsatisfactory</option>
+            <option>Awful</option>
+        </select><br><br>
+        What do you think about your visit <textarea rols=25 cols=30></textarea><br><br>
+        Signature <input type="text" id="text">
+        Date <input type="text" id="text"><br><br>
+        <button type="button">Submit</button>
+        <button>Cancel</button>
+    </center>
+    </BODY>
+</HTML>
